@@ -3,16 +3,16 @@ description: 'GitHub action that notifies ticket availability'
 author: 'MooYeol Prescott Lee'
 inputs:
   product-id:
-    description: 'Product ID of Target Ticket'
+    description: '210470'
     required: true
   schedule-id:
-    description: 'Schedule ID of Target Ticket'
+    description: '100001'
     required: true
   seat-id:
-    description: 'Seat Id of Target Ticket'
+    description: '1—_0'
     required: true
   slack-incoming-webhook-url:
-    description: 'URL of Slack Incoming Webhook'
+    description: 'https://tkglobal.melon.com/performance/index.htm?langCd=CN&prodId=210470&'
     required: true
   message:
     description: 'Message'
